@@ -21,7 +21,6 @@ $privacy = htmlspecialchars($privacy, ENT_QUOTES);
 $date = date('Y/m/d H:i:s');
 $str = $date . ",". $name . ",". $companyname . ",". $department . ",".$mail . ",".$terms . ",".$privacy ;
 
-
 // 以下、2つはCSVに書き込む際の文字化け対策
 $ShiftJIS = $_POST; 
 mb_convert_variables('Shift_JIS', 'UTF-8', $ShiftJIS); 

@@ -36,7 +36,6 @@
 
     <a href="https://mrradiology.hatenablog.jp/entry/20161024/1477267861">参考URL1</a>
 
-
     <form action="shindan_write.php" method="post">
         <p id="q1">Q1.上場に向けた準備を本格的に進める予定ですか？</p><br>
         <input type="radio" name="q1" value="yes">yes<br>
