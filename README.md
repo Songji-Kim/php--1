@@ -9,6 +9,9 @@ index2.php　→　insert2.php　→　shindan.php　→　shindan_insert.php
 ・自己診断を行う
 ・（今後）自己診断の結果に基づいて会社が解決すべきタスクが設定される、という所まで行っていきたいと思っています。
 
+（参考：以前作ったものと同じ内容を自力で作りたいです）
+https://hajimenoippo.force.com/s/beginner?language=ja
+
 【できていないこと】
 １．チェックボックスやラジオボタンのtableへの登録の仕方がわからない。
 ２．mySQLの[hajimenoippo]の中で「hajimenoippo.an.table」と「shindan.an.table」を結合する方法がわからない。
