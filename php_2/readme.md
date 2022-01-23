@@ -16,3 +16,4 @@
 ２．mySQLの[hajimenoippo]の中で「hajimenoippo.an.table」と「shindan.an.table」を結合する方法がわからない。
 （背景）会社情報と自己診断のDBは分けたい。自己診断で離脱する人もいると思うので、まずは会社情報だけでも登録してもらいたい。
 ３．「shindan_insert.php」から「shindan.an.table」への反映がうまく行っていない（仮説：dbのなかに2つテーブルがある場合には何かコーディングが必要なのか？）
+
