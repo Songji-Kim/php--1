@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-    
+
 <html>
 
 <head>
@@ -47,7 +47,7 @@
 
     <header>
         <div class="header">
-            <a href="shindan.php">自己診断の実施</a>
+            <a href="shindan_select.php">自己診断の実施</a>
         </div>
     <header>
 
