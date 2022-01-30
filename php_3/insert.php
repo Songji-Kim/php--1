@@ -57,6 +57,6 @@ $status = $stmt->execute();
 if ($status === false) {
     sql_error($stmt);
 } else {
-    redirect('index.php');
+    redirect('shindan.php');
 }
 ?>
