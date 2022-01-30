@@ -7,6 +7,9 @@ index.php
 insert.php
 select.php
 funcs.php
+shindan.php
+shindan_select.php
+shindan_insert.php
 
 【授業課題】
 update.php
@@ -26,4 +29,5 @@ admin.php
 ・なぜかinsert.php,select.phpを途中から作業するとエラーになります。
 （ログアウトして、ログインしなおしてから、データ登録するながれだとsqlが正しく機能するのですが、途中から操作するとエラーになります）
 ・恐らくsession_regenerateを行っている影響だと推測していますが、直し方は解明できていません。
+・shindanのラジオボタンをまだ上手くデータベースに反映できていません。
 
