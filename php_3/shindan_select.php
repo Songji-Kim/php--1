@@ -13,9 +13,7 @@ $status = $stmt->execute();
 //３．データ表示
 $view = "";
 if ($status == false) {
-    //execute（SQL実行時にエラーがある場合）
-    $error = $stmt->errorInfo();
-    exit("ErrorQuery:" . $error[2]);
+    sql_error($stmt);
 } else {
     //Selectデータの数だけ自動でループしてくれる
     //FETCH_ASSOC=http://php.net/manual/ja/pdostatement.fetch.php
@@ -35,7 +33,7 @@ if ($status == false) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>フリーアンケート表示</title>
+    <title>診断表示</title>
     <!-- <link rel="stylesheet" href="css/range.css">
     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
     <style>

@@ -55,20 +55,20 @@
             
             <div class= "">
                 <p>上場に向けた準備を本格的に進める予定ですか？</p>  
-                <input type="radio" name="q1[]" value="yes">yes
-                <input type="radio" name="q1[]" value="no">no
+                <label><input type="radio" name="q1[]" value="1">yes</label>
+                <label><input type="radio" name="q1[]" value="2">no</label>
             </div>
 
             <div class= "">
                 <p id="q2">Q2.監査法人による監査又はショートレビューを受けましたか？</p>
-                <input type="radio" name="q2[]" value="yes">yes
-                <input type="radio" name="q2[]" value="no">no
+                <label><input type="radio" name="q2[]" value="1">yes</label>
+                <label><input type="radio" name="q2[]" value="2">no</label>
             </div>
 
             <div class= "">            
             <p id="q3">Q3.取締役会を月1回開催していますか？</p>
-            <input type="radio" name="q3[]" value="yes">yes
-            <input type="radio" name="q3[]" value="no">no
+            <label><input type="radio" name="q3[]" value="1">yes</label>
+            <label><input type="radio" name="q3[]" value="2">no</label>
             </div>            
         </div>
     </form>

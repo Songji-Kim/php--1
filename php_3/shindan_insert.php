@@ -38,14 +38,11 @@
 
     //  3. 実行
     $status = $stmt->execute();
-    //４．データ登録処理後
-    if ($status == false) {
-        //SQL実行時にエラーがある場合（エラーオブジェクト取得して表示）
-        $error = $stmt->errorInfo();
-        exit("ErrorMessage:" . $error[2]);
-    } else {
-        //５．index.phpへリダイレクト
-        header('Location: orei.php');
-    }
 
-?>
+    //４．データ登録処理後
+    if ($status === false) {
+        sql_error($stmt);
+    } else {
+        redirect('orei.php');
+    }
+    ?>

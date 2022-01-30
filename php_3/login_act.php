@@ -47,7 +47,7 @@ if ( $val["id"] != ""){
     $_SESSION["companyname"] = $val['companyname'];
     $_SESSION["name"] = $val["name"];
 //ログイン処理OKの場合、select.phpへ遷移
-header("Location: select.php");
+header("Location: index.php");
 }else{
     //ログイン処理NGの場合login.phpへ遷移
     header("Location: login.php");
